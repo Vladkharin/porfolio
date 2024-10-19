@@ -79,8 +79,8 @@ const data: DataType = {
     {
       src: "../assets/BackGround_firstBlock.jpg",
       alt: "likehouse",
-      linkGithub: "https://github.com/Vladkharin/Glopt",
-      linkWebSite: "https://vladkharin.github.io/Glopt/dist/",
+      linkGithub: "https://github.com/Vladkharin/likehouse-react-ts",
+      linkWebSite: "https://likehouse.org/",
       type: "Commercial",
     },
   ],
@@ -169,7 +169,8 @@ function App() {
                       }
                     })}
                   </WorksItems>
-                }></Route>
+                }
+              ></Route>
               <Route
                 path={"Commercial"}
                 element={
@@ -180,7 +181,8 @@ function App() {
                       }
                     })}
                   </WorksItems>
-                }></Route>
+                }
+              ></Route>
             </Route>
           </Routes>
         </React.Fragment>
